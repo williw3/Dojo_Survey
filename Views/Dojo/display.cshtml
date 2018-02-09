@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hello!</title>
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+    <body>
+    
+        <h3>Submitted Info:</h3>
+        <ul>
+            <li>First Name: @ViewBag.first</li>
+            <li>Last Name: @ViewBag.last</li>
+            <li>Email: @ViewBag.email</li>
+            <li>Location: @ViewBag.loc</li>
+            <li>Language: @ViewBag.lang</li>
+            <li>Comment: @ViewBag.comm</li>
+        </ul>
+        <form action="index" method="get">
+            <input type="submit" value="go back">
+        </form>   
+    </body>
+</html>
+
